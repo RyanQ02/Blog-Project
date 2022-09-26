@@ -21,5 +21,9 @@ def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
 
 
+def login(request):
+    return render(request, 'user/login.html')
+
+
 def register(request):
     return render(request, 'users/register.html')
